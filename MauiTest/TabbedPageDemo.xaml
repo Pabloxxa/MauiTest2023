@@ -9,7 +9,7 @@
              UnselectedTabColor="DarkKhaki">
     <ContentPage
         BackgroundColor="Aqua"
-        IconImageSource="dotnet_bot.svg"
+        IconImageSource="/Images/dotnet_bot.svg"
         Title="Page 1">
         <Label 
             Text="Page 1"
@@ -18,7 +18,7 @@
     </ContentPage>
     <ContentPage
         BackgroundColor="Beige"
-        IconImageSource="dotnet_bot.svg"
+        IconImageSource="/dotnet_bot.svg"
         Title="Page 2">
         <Label 
             Text="Page 2"

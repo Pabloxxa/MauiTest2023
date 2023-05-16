@@ -10,16 +10,19 @@
             //var navPage = new NavigationPage(new ContentPageDemo());
             //navPage.BarBackgroundColor = Colors.Chocolate;
             //navPage.BarTextColor = Colors.White;
-            #endregion   
+            #endregion
             #region
-            //2. Flyout Demo Page
+            //2. Flyout PageDemo
             //MainPage = new NavigationPage(new FlyoutPageDemo());
-            #endregion       
+            #endregion
             #region
             //3. TabbedPageDemo
             #endregion
+            #region  TabbedPage
+            //var navPage = new NavigationPage(new TabbedPageDemo());
+            #endregion
 
-            var navPage = new NavigationPage(new TabbedPageDemo());
+             var navPage = new NavigationPage(new PresentationControlsDemo());
             //navPage.BarBackgroundColor = Colors.Chocolate;
             //navPage.BarTextColor = Colors.White;
             MainPage = navPage;
