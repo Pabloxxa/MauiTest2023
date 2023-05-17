@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTest.CommandControlsDemo"
+             Title="CommandControlsDemo">
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="10"
+        VerticalOptions="Center"
+        HorizontalOptions="CenterAndExpand"
+        >
+            <Button 
+                x:Name="btnTest"
+                Text="Click me!"
+                Clicked="btnTest_Clicked"/>
+                <Frame Margin="0"
+                   BorderColor="Black"
+                   CornerRadius="50"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   IsClippedToBounds="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                    <Image 
+                        Source="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/10/shadow.png"
+                        />
+            </Frame>
+            <Frame>
+                <VerticalStackLayout>
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Género"
+                        Content="Hombre"
+            />
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Género"
+                        Content="Mujer"
+            />
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Género"
+                        Content="No binario"
+            />
+                </VerticalStackLayout>
+            </Frame>
+            <Frame>
+                <VerticalStackLayout>
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Equipo"
+                        Content="NAL"
+                        />
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Equipo"
+                        Content=" DIM"
+                        />
+                    <RadioButton
+                        CheckedChanged="RadioButton_CheckedChanged"
+                        GroupName="Equipo"
+                        Content=" Otro Club"
+                        />
+                </VerticalStackLayout>
+            </Frame>
+            <SwipeView>
+                <SwipeView.LeftItems>
+                    <SwipeItems>
+                        <SwipeItem 
+                            Invoked="SwipeItem_Invoked"
+                            IconImageSource="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/10/shadow.png"
+                            Text="Favorito"
+                            BackgroundColor="LightGreen"/>
+                        <SwipeItem 
+                            Invoked="SwipeItem_Invoked"                        
+                            IconImageSource="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/10/shadow.png"
+                            Text="Deleteme"
+                            BackgroundColor="LightPink"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                <Grid
+                    HorizontalOptions="CenterAndExpand"
+                    HeightRequest="200"
+                    BackgroundColor="Silver">
+                    <Label 
+                        WidthRequest="300"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="Title"
+                        HorizontalTextAlignment="Center"
+                        Text="Swipe Right!"
+                    />
+                </Grid>
+            </SwipeView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

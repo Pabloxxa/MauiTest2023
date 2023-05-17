@@ -21,8 +21,14 @@
             #region  TabbedPage
             //var navPage = new NavigationPage(new TabbedPageDemo());
             #endregion
+            #region  PresentationControlsDemo
 
-             var navPage = new NavigationPage(new PresentationControlsDemo());
+            //var navPage = new NavigationPage(new PresentationControlsDemo());
+            #endregion
+            #region  CommandControlsDemo
+            var navPage = new NavigationPage(new CommandControlsDemo());
+            #endregion
+
             //navPage.BarBackgroundColor = Colors.Chocolate;
             //navPage.BarTextColor = Colors.White;
             MainPage = navPage;

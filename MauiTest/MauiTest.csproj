@@ -53,6 +53,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CommandControlsDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FlyoutPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
