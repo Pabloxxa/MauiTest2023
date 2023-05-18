@@ -25,8 +25,11 @@
 
             //var navPage = new NavigationPage(new PresentationControlsDemo());
             #endregion
-            #region  CommandControlsDemo
-            var navPage = new NavigationPage(new CommandControlsDemo());
+            //#region  CommandControlsDemo
+            //var navPage = new NavigationPage(new CommandControlsDemo());
+            //#endregion
+            #region  Input Controls Demo
+            var navPage = new NavigationPage(new InputControlsDemo());
             #endregion
 
             //navPage.BarBackgroundColor = Colors.Chocolate;
