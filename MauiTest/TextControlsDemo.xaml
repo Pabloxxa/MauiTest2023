@@ -9,7 +9,8 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Entry 
-            Keyboard="Telephone"
+            Keyboard="Numeric"
+            MaxLength="10"
             Placeholder="Enter you phone number!" />
         <Editor x:Name="editor"
         Placeholder="Enter your response here"
