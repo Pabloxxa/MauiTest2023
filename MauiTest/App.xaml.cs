@@ -28,8 +28,11 @@
             //#region  CommandControlsDemo
             //var navPage = new NavigationPage(new CommandControlsDemo());
             //#endregion
-            #region  Input Controls Demo
-            var navPage = new NavigationPage(new InputControlsDemo());
+            //#region  Input Controls Demo
+            //var navPage = new NavigationPage(new InputControlsDemo());
+            //#endregion
+            #region  Text Controls Demo
+            var navPage = new NavigationPage(new TextControlsDemo());
             #endregion
 
             //navPage.BarBackgroundColor = Colors.Chocolate;
