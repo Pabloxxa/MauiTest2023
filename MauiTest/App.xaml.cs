@@ -34,8 +34,11 @@
             //#region  Text Controls Demo
             //var navPage = new NavigationPage(new TextControlsDemo());
             //#endregion
-            #region  Activity Controls Demo
-            var navPage = new NavigationPage(new ActivityControlsDemo());
+            //#region  Activity Controls Demo
+            //var navPage = new NavigationPage(new ActivityControlsDemo());
+            //#endregion
+            #region  Collection Controls Demo
+            var navPage = new NavigationPage(new CollectionControlsDemo());
             #endregion
 
             //navPage.BarBackgroundColor = Colors.Chocolate;
