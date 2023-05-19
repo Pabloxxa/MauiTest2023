@@ -40,7 +40,7 @@
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>-->
-        <ListView 
+        <!--<ListView 
             HasUnevenRows="True"
             SeparatorVisibility="None">
             <ListView.ItemsSource>
@@ -79,6 +79,28 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </ListView>-->
+        <Picker>
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Colombia</x:String>
+                    <x:String>Panamá</x:String>
+                    <x:String>USA</x:String>
+                    <x:String>Ecuador</x:String>
+                    <x:String>Perú</x:String>
+                    <x:String>Bolivia</x:String>
+                    <x:String>Venezuela</x:String>
+                    <x:String>Paraguay</x:String>
+                    <x:String>Brasil</x:String>
+                    <x:String>Argentina</x:String>
+                    <x:String>Francia</x:String>
+                    <x:String>Canadá</x:String>
+                    <x:String>Italia</x:String>
+                    <x:String>Alemania</x:String>
+                    <x:String>Países Bajos</x:String>
+                    <x:String>Suiza</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
     </VerticalStackLayout>
 </ContentPage>
