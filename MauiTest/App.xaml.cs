@@ -1,4 +1,5 @@
 ﻿using MauiTest.BindingDemo;
+using MauiTest.MVVM.Views;
 
 namespace MauiTest
 {
@@ -42,8 +43,14 @@ namespace MauiTest
             //#region  Collection Controls Demo
             //var navPage = new NavigationPage(new CollectionControlsDemo());
             //#endregion
+            //#region  Binding Controls Demo
+            //var navPage = new NavigationPage(new BindingDemoTest());
+            //#endregion 
+            //#region  Binding Controls Demo
+            //var navPage = new NavigationPage(new SliderPage());
+            //#endregion
             #region  Binding Controls Demo
-            var navPage = new NavigationPage(new BindingDemoTest());
+            var navPage = new NavigationPage(new PersonView());
             #endregion
 
             //navPage.BarBackgroundColor = Colors.Chocolate;
