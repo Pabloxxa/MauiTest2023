@@ -2,25 +2,27 @@ namespace MauiTest.BindingDemo;
 
 public partial class BindingDemoTest : ContentPage
 {
-	public BindingDemoTest()
-	{
-		InitializeComponent();
-	}
+    public BindingDemoTest()
+    {
+        InitializeComponent();
+    }
 
     private void btnOk_Clicked(object sender, EventArgs e)
     {
-		var person = new Person()
-		{
-			Name = "Juan Ossa",
-			Phone = "3243668217",
-			Address = "Barbosa"
-		};
+        var person = new Person()
+        {
+            Name = "Juan Ossa",
+            Phone = "3243668217",
+            Address = "Barbosa"
+        };
 
-		var personBinding = new Binding();
-		personBinding.Source = person;
-		personBinding.Path = "Name";
+        //var personBinding = new Binding();
+        //personBinding.Source = person;
+        //personBinding.Path = "Name";
 
-		lblName.SetBinding(Label.TextProperty, personBinding);
+        //lblName.BindingContext= person;
+        //lblName.SetBinding(Label.TextProperty, "Name");
+        BindingContext = person;
 
     }
 }
