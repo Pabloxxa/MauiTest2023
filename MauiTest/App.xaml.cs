@@ -1,4 +1,6 @@
-﻿namespace MauiTest
+﻿using MauiTest.BindingDemo;
+
+namespace MauiTest
 {
     public partial class App : Application
     {
@@ -37,8 +39,11 @@
             //#region  Activity Controls Demo
             //var navPage = new NavigationPage(new ActivityControlsDemo());
             //#endregion
-            #region  Collection Controls Demo
-            var navPage = new NavigationPage(new CollectionControlsDemo());
+            //#region  Collection Controls Demo
+            //var navPage = new NavigationPage(new CollectionControlsDemo());
+            //#endregion
+            #region  Binding Controls Demo
+            var navPage = new NavigationPage(new BindingDemoTest());
             #endregion
 
             //navPage.BarBackgroundColor = Colors.Chocolate;
