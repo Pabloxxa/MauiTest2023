@@ -28,33 +28,34 @@ namespace MauiTest
 
             //var navPage = new NavigationPage(new PresentationControlsDemo());
             #endregion
-            //#region  CommandControlsDemo
+            #region  CommandControlsDemo
             //var navPage = new NavigationPage(new CommandControlsDemo());
-            //#endregion
-            //#region  Input Controls Demo
+            #endregion
+            #region  Input Controls Demo
             //var navPage = new NavigationPage(new InputControlsDemo());
-            //#endregion
-            //#region  Text Controls Demo
+            #endregion
+            #region  Text Controls Demo
             //var navPage = new NavigationPage(new TextControlsDemo());
-            //#endregion
-            //#region  Activity Controls Demo
+            #endregion
+            #region  Activity Controls Demo
             //var navPage = new NavigationPage(new ActivityControlsDemo());
-            //#endregion
-            //#region  Collection Controls Demo
+            #endregion
+            #region  Collection Controls Demo
             //var navPage = new NavigationPage(new CollectionControlsDemo());
-            //#endregion
-            //#region  Binding Controls Demo
-            //var navPage = new NavigationPage(new BindingDemoTest());
-            //#endregion 
-            //#region  Binding Controls Demo
-            //var navPage = new NavigationPage(new SliderPage());
-            //#endregion
+            #endregion
             #region  Binding Controls Demo
-            var navPage = new NavigationPage(new PersonView());
+            //var navPage = new NavigationPage(new BindingDemoTest());
+            #endregion
+            #region  SliderPage  Demo
+            //var navPage = new NavigationPage(new SliderPage());
+            #endregion
+            #region  PersonView Demo
+            //var navPage = new NavigationPage(new PersonView());
+            #endregion
+            #region  PersonView Demo
+            var navPage = new NavigationPage(new PeopleView());
             #endregion
 
-            //navPage.BarBackgroundColor = Colors.Chocolate;
-            //navPage.BarTextColor = Colors.White;
             MainPage = navPage;
         }
     }
