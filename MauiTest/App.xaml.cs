@@ -56,7 +56,10 @@ namespace MauiTest
             //var navPage = new NavigationPage(new PeopleView());
             #endregion
             #region  PersonView Demo
-            var navPage = new NavigationPage(new CommandsView());
+            //var navPage = new NavigationPage(new CommandsView());
+            #endregion
+            #region  PersonView Demo
+            var navPage = new NavigationPage(new DemoAutoPropertyChangedView());
             #endregion
 
             MainPage = navPage;
