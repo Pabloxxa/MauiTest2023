@@ -1,18 +1,13 @@
 using MauiTest.MVVM.Models;
+using MauiTest.MVVM.ViewModels;
 
 namespace MauiTest.MVVM.Views;
 
 public partial class PersonView : ContentPage
 {
-	public PersonView()
-	{
-		InitializeComponent();
-		var person = new Person()
-		{
-			Name = "Juan Ossa",
-			Age = 38
-		};
-
-		BindingContext = person;
-	}
+    public PersonView()
+    {
+        InitializeComponent();
+        BindingContext = new PersonViewModel();
+    }
 }

@@ -7,7 +7,7 @@
         VerticalOptions="Center" 
             HorizontalOptions="Center">
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="RECONOCER"
             Rotation="{ Binding Source={ x:Reference  slider }, Path=Value}"
             FontSize="50"
             />

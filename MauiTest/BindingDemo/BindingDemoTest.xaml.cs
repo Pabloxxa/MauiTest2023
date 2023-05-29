@@ -13,15 +13,15 @@ public partial class BindingDemoTest : ContentPage
         {
             Name = "Juan Ossa",
             Phone = "3243668217",
-            Address = "Barbosa"
+            Address = "Barbosa, Antioquia"
         };
 
         //var personBinding = new Binding();
         //personBinding.Source = person;
         //personBinding.Path = "Name";
 
-        //lblName.BindingContext= person;
-        //lblName.SetBinding(Label.TextProperty, "Name");
+        lblName.BindingContext= person;
+        lblName.SetBinding(Label.TextProperty, "Name");
         BindingContext = person;
 
     }

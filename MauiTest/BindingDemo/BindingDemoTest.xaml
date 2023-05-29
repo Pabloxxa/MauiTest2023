@@ -12,16 +12,18 @@
             Phone="+57 311 719 92 50"
             />
     </ContentPage.Resources>
+        <ScrollView>
     <VerticalStackLayout
             VerticalOptions="Center" 
             HorizontalOptions="Center">
-        <!--<Label 
+            
+        <Label 
             x:Name="lblName"
             FontSize="50"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             Text="{Binding Name, Source={StaticResource person}   }"
-            />-->
+            />
         <Label 
             FontSize="50"
             VerticalOptions="Center" 
@@ -44,4 +46,5 @@
                 Text="Bind"
                 Clicked="btnOk_Clicked"/>
     </VerticalStackLayout>
+        </ScrollView>
 </ContentPage>
